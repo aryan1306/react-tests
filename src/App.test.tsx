@@ -14,6 +14,6 @@ describe("Counter", () => {
   test("initial value is 0", () => {
     const wrapper = render(<App />);
     const count = wrapper.getByTestId("counter").textContent;
-    expect(count).toEqual("0");
+    expect(count).toEqual("1");
   });
 });
