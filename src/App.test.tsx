@@ -12,8 +12,8 @@ describe("Snapshot Testing", () => {
 
 describe("Counter", () => {
   test("initial value is 0", () => {
-    const wrapper = render(<App />);
-    const count = wrapper.getByTestId("counter").textContent;
-    expect(count).toEqual("1");
+    const wrapperr = render(<App />);
+    const count = wrapperr.getByTestId("counter").textContent;
+    expect(count).toEqual("0");
   });
 });
